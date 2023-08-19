@@ -30,3 +30,19 @@ article {
     display: flex;
     justify-content: center;
 }
+
+li {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}

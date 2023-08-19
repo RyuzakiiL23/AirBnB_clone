@@ -93,10 +93,9 @@ article {
     justify-content: start;
     text-align: left;
 }
-
 .price_by_night {
-    margin-left: 250px;
-    position: absolute;
+    justify-content: center;
+    display: flex;
     color: #FF5A5F;
     border: #FF5A5F solid;
     border-radius: 50px;
@@ -110,9 +109,45 @@ article {
 }
 
 .price_title {
+    margin-left: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-bottom: 50px;
+}
+
+.amenities {
+    margin-top: 40px;
+}
+
+.locations {
+    margin-top: 40px;
+}
+
+.amenities h2 {
+    font-size: 16px;
+    border-bottom: #DDDDDD;
+    text-align: start;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: start;
+    padding: 0;
+}
+
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: #DDDDDD;
+    text-align: start;
+}
+
+.reviews h3 {
+    text-align: start;
+}
+
+.reviews p {
+    text-align: start;
 }
 
 li {
@@ -129,4 +164,58 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: start;
+}
+
+.pet {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icon_pets.png);
+}
+.tv {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icon_tv.png);
+}
+.wifi {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/icon_wifi.png);
+}
+
+.amenities ul {
+    margin-left: 10px;
+}
+
+.amenities p {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 0;
+    width: 100px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 820px) {
+    .div-one {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .price_title {
+        margin-left: 120px;
+    }
+    article {
+        width: 600px;
+    }
 }
