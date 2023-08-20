@@ -5,5 +5,5 @@ footer {
     flex-shrink: 0;
     height: 60px;
     width: 100%;
-    border-top: 1px #CCCCCC;
+    border-top: 1px #CCCCCC solid;
 }

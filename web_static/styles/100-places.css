@@ -12,6 +12,7 @@
     display: block;
     justify-content: space-between;
 }
+
 article {
     text-align: center;
     width: 390px;
@@ -117,6 +118,7 @@ article {
 
 .amenities {
     margin-top: 40px;
+    
 }
 
 .locations {

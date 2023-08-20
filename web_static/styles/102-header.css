@@ -1,7 +1,7 @@
 header {
     height: 70px;
     width: 100%;
-    border-bottom: 1px #CCCCCC;
+    border-bottom: 1px #CCCCCC solid;
 }
 
 header .logo {
@@ -9,4 +9,5 @@ header .logo {
     height: 100%;
     background: url("../images/logo.png") no-repeat center;
     padding-left: 20px;
+    cursor: pointer;
 }

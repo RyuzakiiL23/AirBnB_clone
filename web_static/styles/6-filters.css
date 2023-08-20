@@ -2,7 +2,7 @@
     background-color: white;
     height: 70px;
     width: 100%;
-    border: 1px #DDDDDD ;
+    border: 1px #DDDDDD;
     border-radius: 4px;
     display: flex;
     justify-content: flex-end;
@@ -44,6 +44,7 @@ h4 {
 }
 
 .popover {
+    margin-top: 16px;
     position: relative;
     visibility: hidden;
     background-color: white;

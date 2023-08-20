@@ -21,11 +21,13 @@ article {
     border: #FF5A5F 1px solid;
     border-radius: 4px;
     cursor: pointer;
-    transition: 0.25s;
+    transition: 0.5s;
 }
 
 article:hover {
+    margin: 19.8px;
     box-shadow: 0 0 30px rgba(255,90,95, 0.7);
+    transition: 0.5s;
 }
 
 .div-one {
@@ -124,6 +126,7 @@ article:hover {
 
 .amenities {
     margin-top: 40px;
+    
 }
 
 .locations {
