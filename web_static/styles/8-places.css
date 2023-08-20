@@ -13,6 +13,7 @@
     justify-content: space-between;
 }
 article {
+    position: relative;
     text-align: center;
     width: 390px;
     margin: 20px;
@@ -95,8 +96,11 @@ article {
 }
 
 .price_by_night {
-    margin-left: 250px;
+    justify-content: center;
     position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
     color: #FF5A5F;
     border: #FF5A5F solid;
     border-radius: 50px;
